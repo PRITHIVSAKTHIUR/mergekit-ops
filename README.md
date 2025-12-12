@@ -1,18 +1,30 @@
 ## Quick Start
 
+### 1. Clone the repository
 ```bash
-# Clone the repository
 !git clone https://github.com/PRITHIVSAKTHIUR/mergekit-ops.git
+````
 
-# Enter the project directory
+### 2. Move into the directory
+
+```bash
 %cd mergekit-ops
+```
 
-# List files (optional)
+### 3. List project files (optional)
+
+```bash
 !ls
+```
 
-# Install requirements
+### 4. Install dependencies
+
+```bash
 !pip install -r requirements.txt
+```
 
-# Run the app
+### 5. Run the application
+
+```bash
 !python app.py
 ```
