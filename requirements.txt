@@ -1,0 +1,9 @@
+gradio_logsview@https://huggingface.co/spaces/Wauplin/gradio_logsview/resolve/main/gradio_logsview-0.0.5-py3-none-any.whl
+git+https://github.com/arcee-ai/mergekit.git
+huggingface_hub
+apscheduler
+hf_transfer
+pydantic
+fastapi
+hf_xet
+torch
