@@ -304,4 +304,5 @@ with gr.Blocks() as demo:
     button.click(fn=merge, inputs=[config, token, repo_name, private], outputs=[logs])
 
 
-demo.queue(default_concurrency_limit=1).launch(share=True)
+demo.queue(default_concurrency_limit=1).launch(mcp_server=True, share=True)
+
